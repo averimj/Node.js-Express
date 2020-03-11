@@ -1,4 +1,3 @@
-
 // creates a server
 const express = require('express');
 
@@ -7,6 +6,15 @@ const app = express();
 
 // tells express which template engine to use
 app.set('view engine', 'pug');
+
+const mainRoutes = require('./routes');
+const aboutRoutes = require('./routes/about');
+const projectRoutes = require('./routes/project');
+
+
+app.use(mainRoutes);
+app.use('/about', aboutRoutes);
+app.use('/project', projectRoutes);
 
 app.use('/static', express.static('public') );
 
