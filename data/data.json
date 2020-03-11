@@ -2,21 +2,21 @@
   "projects": [
     {
       "id": 1,
-      "project_name": "Random Quote Generator",
-      "description": "",
-      "technologies": ["JavaScript Basics", "Introduction to HTML and CSS", "Loops, Arrays and Objects", "Atom and VS Code Text Editor"],
+      "project_name": "API Requests",
+      "description": "In this project, data was gathered from a JSON API and used to build an app directory for a fictional start-up company. The app will display basic contact information for 12 employee's. The contact information includes a picture, name, email, city and state for each employee. When the user clicks on a specific employee, a moduel will appear displaying more information about the employee such as birthday, address and phone number.",
+      "technologies": ["Object Oriented JavaScript", "Callback Functions", "Array Iteration Methods"],
       "live_link": [""],
-      "github_link": "https://github.com/averimj/Random-Quote-Generator",
-      "image_urls": "/static/images/p1_5b5.png"
+      "github_link": "https://github.com/averimj/Game-Show-App",
+      "image_urls": ["/static/images/p5_pic1.png", "/static/images/p5_pic2.png", "/static/images/p5_pic3.png" ]
     },
     {
       "id": 2,
-      "project_name": "Student Filteration and Pagination",
-      "description": "This project takes a list of students (in this case 54 students) and displays 10 students per page. It then creates and displays the page number at the bottom of the page. This allows the user to click on the desired page number to see a different list of students.",
-      "technologies": ["ES2015", "CSS Selectors", "JavaScript and the DOM", "Pseudocode", "Debugging with JavaScript"],
+      "project_name": "Game Show App",
+      "description": "The player tries to guess the letters within the random quote. The player has 5 guesses and if they guess the letters correct they win! However, each time the player misses a letter they lose a life. If the player misses 5 times (loses 5 lives), the game is over.",
+      "technologies": ["Introduction to Git and the Terminal", "HTTP Basics", "AJAX Basics", "Fetch API", "Asynchronous Programming" ],
       "live_link": [""],
-      "github_link": "https://github.com/averimj/Student-Filteration-Website",
-      "image_urls": "https://cdn.pixabay.com/photo/2016/05/26/16/27/baking-1417494_960_720.jpg"
+      "github_link": "https://github.com/averimj/Node.js-Express",
+      "image_urls": ["/static/images/p4_pic2.png", "/static/images/p4_pic1.png", "/static/images/p4_pic3.png"]
     },
     {
       "id": 3,
@@ -25,25 +25,25 @@
       "technologies": ["HTML Forms", "jQuery Basics", "HTML and CSS", "JavaScript Conditionals", "Regular Expressions"],
       "live_link": [""],
       "github_link": "https://github.com/averimj/Interactive-Form-Validation",
-      "image_urls": "https://cdn.pixabay.com/photo/2016/05/26/16/27/baking-1417494_960_720.jpg"
+      "image_urls": ["/static/images/p3_pic3.png", "/static/images/p3_pic2.png", "/static/images/p3_pic1.png"]
     },
     {
       "id": 4,
-      "project_name": "API Requests",
-      "description": "In this project, data was gathered from a JSON API and used to build an app directory for a fictional start-up company. The app will display basic contact information for 12 employee's. The contact information includes a picture, name, email, city and state for each employee. When the user clicks on a specific employee, a moduel will appear displaying more information about the employee such as birthday, address and phone number.",
-      "technologies": ["Object Oriented JavaScript", "Callback Functions", "Array Iteration Methods"],
+      "project_name": "Student Filteration and Pagination",
+      "description": "This project takes a list of students (in this case 54 students) and displays 10 students per page. It then creates and displays the page number at the bottom of the page. This allows the user to click on the desired page number to see a different list of students.",
+      "technologies": ["ES2015", "CSS Selectors", "JavaScript and the DOM", "Pseudocode", "Debugging with JavaScript"],
       "live_link": [""],
-      "github_link": "https://github.com/averimj/API-Requests",
-      "image_urls": "https://cdn.pixabay.com/photo/2016/05/26/16/27/baking-1417494_960_720.jpg"
+      "github_link": "https://github.com/averimj/Student-Filteration-Website",
+      "image_urls": ["/static/images/p2_pic3.png", "/static/images/p2_pic1.png", "/static/images/p2_pic2.png"]
     },
     {
       "id": 5,
-      "project_name": "Node.js-Express",
-      "description": "",
-      "technologies": ["Introduction to Git and the Terminal", "HTTP Basics", "AJAX Basics", "Fetch API", "Asynchronous Programming" ],
+      "project_name": "Random Quote Generator",
+      "description": "Using basic JavaScript, I created a random quote generator using array objects,loops and conditional statments. Watch as a mixture of funny, inspirational and powerful quotes displays across the screen with each quote populating to different background colors",
+      "technologies": ["JavaScript Basics", "Introduction to HTML and CSS", "Loops, Arrays and Objects", "Atom and VS Code Text Editor"],
       "live_link": [""],
-      "github_link": "https://github.com/averimj/Node.js-Express",
-      "image_urls": "https://cdn.pixabay.com/photo/2016/05/26/16/27/baking-1417494_960_720.jpg"
+      "github_link": "https://github.com/averimj/Random-Quote-Generator",
+      "image_urls": ["/static/images/p1_pic1.png", "/static/images/p1_pic2.png", "/static/images/p1_pic3.png"]
     }
   ]
 }
