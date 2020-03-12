@@ -4,6 +4,9 @@ const express = require('express');
 // creates a new application
 const app = express();
 
+
+const port = process.env.PORT || 3000;
+
 // tells express which template engine to use
 app.set('view engine', 'pug');
 
@@ -38,6 +41,10 @@ app.use((err, req, res, next) => {
 })
 
 // tells server to run on users local machine
-app.listen(3000, () => {
-  console.log('The application is running on localhost:3000');
+// app.listen(3000, () => {
+//   console.log('The application is running on localhost:3000');
+// });
+
+app.listen(port, () => {
+  console.log(`The application is running on port ${port}`);
 });
