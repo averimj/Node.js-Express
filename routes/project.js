@@ -13,6 +13,7 @@ router.get('/:id', (req, res, next) => {
   } else {
     const err = new Error('Not Found');
     err.status = 404;
+    console.log('404, page not found')
     next(err);
   }
   next();

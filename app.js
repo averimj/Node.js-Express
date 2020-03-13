@@ -22,15 +22,16 @@ app.use('/project', projectRoutes);
 app.use('/static', express.static('public') );
 
 app.use((req, res, next) => {
-  console.log('Hello');
   const err = new Error('Oh no!');
   err.status = 500;
+  console.log('500, something went wrong');
   next(err);
 })
 
 app.use((req, res, next) => {
   const err = new Error('Not Found');
   err.status = 404;
+  console.log('404, page not found');
   next(err);
 })
 
@@ -41,10 +42,6 @@ app.use((err, req, res, next) => {
 })
 
 // tells server to run on users local machine
-// app.listen(3000, () => {
-//   console.log('The application is running on localhost:3000');
-// });
-
 app.listen(port, () => {
   console.log(`The application is running on port ${port}`);
 });
