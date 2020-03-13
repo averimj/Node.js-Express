@@ -7,7 +7,7 @@
       "technologies": ["Object Oriented JavaScript", "Callback Functions", "Array Iteration Methods"],
       "live_link": ["https://averimj.github.io/API-Requests/"],
       "github_link": "https://github.com/averimj/Game-Show-App",
-      "image_urls": ["/static/images/p5_pic1.png", "/static/images/p5_pic2.png", "/static/images/p5_pic3.png" ]
+      "image_urls": ["/static/images/pro5.png", "/static/images/pro5_1.png" ]
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "technologies": ["Introduction to Git and the Terminal", "HTTP Basics", "AJAX Basics", "Fetch API", "Asynchronous Programming" ],
       "live_link": ["https://averimj.github.io/Game-Show-App/"],
       "github_link": "https://github.com/averimj/Node.js-Express",
-      "image_urls": ["/static/images/p4_pic2.png", "/static/images/p4_pic1.png", "/static/images/p4_pic3.png"]
+      "image_urls": ["/static/images/pro4.png", "/static/images/pro4_1.png"]
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "technologies": ["HTML Forms", "jQuery Basics", "HTML and CSS", "JavaScript Conditionals", "Regular Expressions"],
       "live_link": ["https://averimj.github.io/Interactive-Form-Validation/"],
       "github_link": "https://github.com/averimj/Interactive-Form-Validation",
-      "image_urls": ["/static/images/p3_pic3.png", "/static/images/p3_pic2.png", "/static/images/p3_pic1.png"]
+      "image_urls": ["/static/images/pro3_6.png", "/static/images/pro3_10.png"]
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "technologies": ["ES2015", "CSS Selectors", "JavaScript and the DOM", "Pseudocode", "Debugging with JavaScript"],
       "live_link": ["https://averimj.github.io/Student-Filteration-Website/"],
       "github_link": "https://github.com/averimj/Student-Filteration-Website",
-      "image_urls": ["/static/images/p2_pic3.png", "/static/images/p2_pic1.png", "/static/images/p2_pic2.png"]
+      "image_urls": ["/static/images/pro2.png","/static/images/p2_pic3.png"]
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "technologies": ["JavaScript Basics", "Introduction to HTML and CSS", "Loops, Arrays and Objects", "Atom and VS Code Text Editor"],
       "live_link": ["https://averimj.github.io/Random-Quote-Generator/"],
       "github_link": "https://github.com/averimj/Random-Quote-Generator",
-      "image_urls": ["/static/images/p1_pic1.png", "/static/images/p1_pic2.png", "/static/images/p1_pic3.png" ]
+      "image_urls": ["/static/images/pro1.png", "/static/images/p1_pic1.png"]
     }
   ]
 }
