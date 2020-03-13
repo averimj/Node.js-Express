@@ -24,14 +24,14 @@ app.use('/static', express.static('public') );
 app.use((req, res, next) => {
   const err = new Error('Oh no!');
   err.status = 500;
-  // console.log('500, something went wrong');
+  console.log('500, something went wrong');
   next(err);
 })
 
 app.use((req, res, next) => {
   const err = new Error('Not Found');
   err.status = 404;
-  // console.log('404, page not found');
+  console.log('404, page not found');
   next(err);
 })
 
