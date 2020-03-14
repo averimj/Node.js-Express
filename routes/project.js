@@ -16,7 +16,6 @@ router.get('/:id', (req, res, next) => {
     console.log('404, page not found')
     next(err);
   }
-  next();
 });
 
  module.exports = router;
