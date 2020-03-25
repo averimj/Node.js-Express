@@ -1,10 +1,18 @@
-
-h1,h2,h3,h4,h5,p{
-  font-family: 'Apple Chancery', serif;
+body{
+  background-color: #d799ba;
 }
 
+h1,h2,h3,h4,h5,p{
+  font-family: 'Times New Roman', serif;
+}
+
+  h1{
+    color: #3d013d;
+  }
+
+
   h5{
-    font-family: 'American Typewriter', 'Fantasy', Helvetica, Arial, sans-serif;
+    font-family: 'Avantgarde', 'Optima', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -18,8 +26,8 @@ h1,h2,h3,h4,h5,p{
   }
 
   p{
-    font-size: 15px;
-    color: #3d013d
+    font-size: 20px;
+    color: #3d013d;
   }
 
 .round{
@@ -65,13 +73,13 @@ a:hover{
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #fff;
   }
 
   .portfolio-me a{
     font-family: 'American Typewriter', 'Fantasy', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #a96fa9;
+    color: #fff;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,7 +87,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #8c458c;
   }
 
 .portfolio-breadcrumb{
