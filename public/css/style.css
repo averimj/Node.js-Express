@@ -1,10 +1,10 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Apple Chancery', serif;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'American Typewriter', 'Fantasy', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: #666;
+    color: #3d013d
   }
 
 .round{
@@ -27,30 +27,30 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #3d013d
 }
 
 .button{
-  background-color: #333;
+  background-color: #3d013d;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #8c458c;
 }
 
 a{
-  color: #333;
+  color: #3d013d
 }
 
 a:hover{
-  color: #111;
+  color: #8c458c;
 }
 
 .image{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  border: solid 4px #ad5784;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
@@ -58,7 +58,7 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #3d013d;
   color: #fff;
   box-shadow: none !important;
 }
@@ -69,9 +69,9 @@ a:hover{
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'American Typewriter', 'Fantasy', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #a96fa9;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -89,7 +89,7 @@ a:hover{
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'American Typewriter', 'Fantasy', Helvetica, Arial, sans-serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
@@ -103,7 +103,7 @@ a:hover{
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #8b2e5f;
   padding-bottom: 40px;
 }
 
@@ -117,7 +117,7 @@ a:hover{
   }
 
   .portfolio-index a{
-    color: #222;
+      color: #3d013d;
   }
 
   .portfolio-index .cell{
@@ -142,7 +142,7 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color: #3d013d;
 }
 
 .portfolio-bio{
